@@ -21,5 +21,15 @@ A polished, single‑page ledger dashboard built with semantic HTML and modern C
 - Portfolio showcase of fintech UI skills
 - Static prototype for account/ledger experiences
 
+### Diagram
+```mermaid
+flowchart TD
+  U[User] --> B[Open fintech project 1.html]
+  B --> H[Hero & KPIs]
+  B --> T[Transactions Table]
+  H --> S[Accessible, print-ready CSS]
+  T --> S
+```
+
 ### License
 Released under the MIT License. See `LICENSE`.
